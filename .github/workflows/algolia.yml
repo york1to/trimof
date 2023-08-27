@@ -23,7 +23,7 @@ name: Algolia Indexer
 on:
   push:
     branches:
-     -main
+      - main
 
 jobs:
   algolia_indexer:
