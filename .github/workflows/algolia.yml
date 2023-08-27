@@ -32,7 +32,7 @@ jobs:
       APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
       API_KEY: ${{ secrets.API_KEY }}
       INDEX_NAME: trimof.com # example.com
-      CONFIG: '${{ steps.algolia_config.outputs.config }}
+      CONFIG: ${{ steps.algolia_config.outputs.config }}
     name: Index Algolia
     steps:
     - name: Get the content of algolia.json as config
