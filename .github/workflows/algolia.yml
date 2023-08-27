@@ -31,7 +31,7 @@ jobs:
     env:
       APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
       API_KEY: ${{ secrets.API_KEY }}
-      INDEX_NAME: {{trimof.com}} # example.com
+      INDEX_NAME: trimof.com # example.com
       CONFIG: '{"index_name": "trimof",
                 "start_urls": ["http://trimof.com"],
                 "rateLimit": 8,
