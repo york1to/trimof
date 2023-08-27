@@ -6,7 +6,7 @@
   "selectors": {
     "lvl0": {
       "selector": "",
-      "defaultValue": "doc"
+      "defaultValue": "docs"
     },
     "lvl1": ".content h1",
     "lvl2": ".content h2",
