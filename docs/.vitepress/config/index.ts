@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 import themeConfig from "./theme";
 import head from "./head";
 import { DESCRIPTION as description, LANG as lang, TITLE as title } from "./info";
+import markdownItKatex from 'markdown-it-katex'
 
 // noinspection JSUnusedGlobalSymbols
 export default defineConfig({
@@ -11,8 +12,11 @@ export default defineConfig({
   lang,
   lastUpdated: true,
   markdown: {
-    lineNumbers: true
+    config: (md) => {
+      md.use(markdownItKatex)
+    }
   },
   themeConfig,
   title
 });
+
