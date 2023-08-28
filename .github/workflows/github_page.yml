@@ -40,7 +40,7 @@ jobs:
         run: pnpm install --no-frozen-lockfile
 
       - name: Build docs
-        run: vitepress build docs//pnpm -F docs build
+        run: pnpm -F docs build
 
       - name: Deploy Web
         uses: peaceiris/actions-gh-pages@v3
