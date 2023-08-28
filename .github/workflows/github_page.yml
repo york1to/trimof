@@ -40,7 +40,7 @@ jobs:
         run: pnpm install --no-frozen-lockfile
 
       - name: Build docs
-        run: pnpm -F docs build
+        run: pnpm -F docs:build
 
       - name: Deploy Web
         uses: peaceiris/actions-gh-pages@v3
@@ -48,5 +48,5 @@ jobs:
             PERSONAL_TOKEN: ${{ secrets.ACTION_KEY}}
             EXTERNAL_REPOSITORY: york1to/york1to.github.io
             PUBLISH_BRANCH: main
-            PUBLISH_DIR: docs/.vitepress/dist
+            PUBLISH_DIR: ./docs/.vitepress/dist
             commit_message: ${{ github.event.head_commit.message }}
