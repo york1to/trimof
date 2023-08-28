@@ -19,9 +19,6 @@ dependencies:
     version: 1.1.0
 
 devDependencies:
-  husky:
-    specifier: ^8.0.3
-    version: 8.0.3
   markdown-it:
     specifier: 13.0.1
     version: 13.0.1
@@ -804,12 +801,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: false
-
-  /husky@8.0.3:
-    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
-    engines: {node: '>=14'}
-    hasBin: true
-    dev: true
 
   /inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
