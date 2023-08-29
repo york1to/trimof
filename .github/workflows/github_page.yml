@@ -41,6 +41,9 @@ jobs:
 
       - name: Build docs
         run: pnpm docs:build
+      
+      - name: Add CNAME
+        run: touch CNAME && echo 'trimof.com' > ./docs/.vitepress/dist/CNAME
 
       - name: Deploy Web
         uses: peaceiris/actions-gh-pages@v3

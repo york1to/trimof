@@ -108,4 +108,8 @@ typora 配置很简单，[官网](https://support.typora.io/Upload-Image)说的�
 
 ## 4 git 服务器自动部署
 
-![screenshot 2023-08-29 at 2.40.53 PM](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_5d7f5796cbfb9704041021bc5336504b.png)
+### 4.3 自定义域名CNAME的自动部署
+
+
+
+![screenshot 2023-08-29 at 2.40.53 PM](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_f4f749bc5754ab7dd97748b303d5d9ed.png)
