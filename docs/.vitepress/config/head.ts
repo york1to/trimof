@@ -108,6 +108,10 @@ const twitter: HeadConfig[] = [
       content: `${URL}/images/og.png`
     }
   ]
+  // ,
+  // [
+
+  // ]
 ];
 const headConfig: HeadConfig[] = [
   ...markdownkatex,

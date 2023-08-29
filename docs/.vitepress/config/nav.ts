@@ -4,75 +4,49 @@ const navConfig: DefaultTheme.NavItem[] = [
   {
     text: "📖 Notes",
     items: [
-      { text: "Index", link: "/notes/" },
       {
-        text: "Maths", link: "/notes/maths"
+        text: "Maths", link: "/notes/Maths/An Introduction.md"
       },
       {
-        text: "CS", link: "/notes/CS"
+        text: "CS", link: "/notes/CS/An Introduction.md"
       },
       {
-        text: "Control", link: "/notes/control_theory"
+        text: "Control", link: "/notes/Control/An Introduction.md"
       },
       {
-        text: "EE", link: "/notes/EE"
+        text: "EE", link: "/notes/EE/An Introduction.md"
       },
       {
-        text: "Robotics", link: "/notes/EE"
+        text: "Robotics", link: "/notes/Robotics/An Introduction.md"
       }
     ]
   },
   {
     text: "⛩️ Blogs",
     items: [
-      { text: "Index", link: "/blogs/" },
-      {
-        text: "Maths",
-        items: [
-          { text: "Calculus", link: "/notes/maths/calculus/calculus" },
-          { text: "Linear Algebra", link: "/notes/maths/linear_algebra/linear_algebra"}
-        ]
-      },
-      {
-        text: "Computer Science",
-        items: [
-          { text: "C++", link: "/notes/maths/calculus/calculus" },
-          { text: "Linux", link: "/notes/maths/linear_algebra/linear_algebra"}
-        ]
-      }
+      { text: "Animes", link: "/blogs/Animes/An Introduction.md" },
+      { text: "Mangas", link: "/blogs/Mangas/An Introduction.md" },
+      { text: "Movies", link: "/blogs/Movies/An Introduction.md" },
+      { text: "Whatever", link: "/blogs/Whatever/An Introduction.md" }
     ]
   },
   {
     text: "⛵️ Documentations",
     items: [
-      { text: "Index", link: "/documentations/" }
+      { text: "CS", link: "/documentations/CS.md" }
     ]
   },
   {
     text: "⚙️ Projects",
     items: [
-      { text: "Index", link: "/projects/" },
-      {
-        text: "Robomaster Navigation in ROS2",
-        items: [
-          { text: "Calculus", link: "/notes/maths/calculus/calculus" },
-          { text: "Linear Algebra", link: "/notes/maths/linear_algebra/linear_algebra"}
-        ]
-      },
-      {
-        text: "Matrix Multiplication acceleration",
-        items: [
-          { text: "C++", link: "/notes/maths/calculus/calculus" },
-          { text: "Linux", link: "/notes/maths/linear_algebra/linear_algebra"}
-        ]
-      }
+      { text: "Competitions", link: "/projects/Competitions/An Introduction.md" },
+      { text: "Course Projects", link: "/projects/Course Projects/An Introduction.md" },
+      { text: "Projects", link: "/projects/Projects/An Introduction.md" }
     ]
   },
   {
     text: "About",
-    items: [
-      { text: "Index", link: "/about/index.md" }
-    ]
+    link:"/about/About.md"
   }
 ];
 

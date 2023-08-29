@@ -10,7 +10,7 @@ const keywords = [
 
 // Base Info
 export const TITLE = "trimof";
-export const DESCRIPTION = "yorkito's blog website";
+export const DESCRIPTION = "york1to's website";
 export const LANG = "zh-CN";
 export const DOMAIN = "trimof.com";
 export const URL = `https://${DOMAIN}`;

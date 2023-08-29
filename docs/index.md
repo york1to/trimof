@@ -3,24 +3,24 @@ layout: home
 
 hero:
   name: trimof
-  text: Yorkito's Blog Website
-  tagline: :)
+  text: York1to's Website
+  tagline: juuuuuuuuuuicy
   image:
     src: /images/hero.png
     alt: archlinux
   actions:
-    - theme: brand
+    - theme: alt
       text: Notes
-      link: /notes/index
-    - theme: brand
+      link: /notes/An introduction
+    - theme: alt
       text: Blogs
-      link: /blogs/index
-    - theme: brand
+      link: /blogs/An introduction
+    - theme: alt
       text: Docs
-      link: /documentations/index
-    - theme: brand
+      link: /documentations/An introduction
+    - theme: alt
       text: Projects
-      link: /projects/index
+      link: /projects/An introduction
     - theme: alt
       text: My Github
       link: https://github.com/yorkitokang
@@ -28,10 +28,10 @@ hero:
 features:
   - icon: 📖
     title: Study Notes
-    details: Knowledge learned
+    details: 😔
   - icon: ⛩️
     title: Blogs
-    details: Naive thoughts
+    details: Classic
   - icon: 🏝️
     title: Documentations
     details: Index of helpful documentations
