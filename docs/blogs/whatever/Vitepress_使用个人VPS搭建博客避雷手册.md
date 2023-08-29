@@ -107,3 +107,5 @@ typora 配置很简单，[官网](https://support.typora.io/Upload-Image)说的�
 最终实现效果，截图然后拖到 typora 里面，自动上传到 github 图床然后博客就能访问了，爽！
 
 ## 4 git 服务器自动部署
+
+![screenshot 2023-08-29 at 2.40.53 PM](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_5d7f5796cbfb9704041021bc5336504b.png)
