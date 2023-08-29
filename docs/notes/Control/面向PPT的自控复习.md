@@ -220,6 +220,3 @@ $$
 ### PD Control
 
 Ziegler-Nichols Oscillation Method
-
-
-[pdf](https://trimof.com/pdf/mpc.pdf)

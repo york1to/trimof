@@ -15,7 +15,7 @@ export const LANG = "zh-CN";
 export const DOMAIN = "trimof.com";
 export const URL = `https://${DOMAIN}`;
 export const REPO = "https://github.com/yorkitokang/trimof";
-export const LOGO = "/images/logo.svg";
+export const LOGO = "/images/logo.png";
 export const KEYWORDS = keywords.join(",");
 export const META_TITLE = `${TITLE}`;
 
