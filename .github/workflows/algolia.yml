@@ -1,30 +1,74 @@
-name: algolia CI
+# name: algolia CI
+# on:
+#   push:
+#     branches:
+#       - main
+# jobs:
+#   algolia:
+#     runs-on: ubuntu-latest
+#     steps:
+#       # - uses: actions/checkout@v2
+#       # - name: Get the content of algolia.json as config
+#       #   id: algolia_config
+#       #   run: echo "config=$(cat crawlerConfig.json | jq -r tostring)" >> $GITHUB_OUTPUT
+#       # - name: Push indices to Algolia
+#       #   id: algolia
+#       #   uses: adapttive/algolia-docsearch-action@1.1.1
+#       #   env:
+#       #     APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
+#       #     API_KEY: ${{ secrets.API_KEY }}
+#       #     CONFIG: ${{ steps.algolia_config.outputs.config }}
+#       - name: Upload Algolia Indexes
+#         uses: iChochy/Algolia-Upload-Records@main
+#         env:
+#           APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
+#           ADMIN_API_KEY: ${{ secrets.API_KEY }}
+#           INDEX_NAME: "trimof"
+#           FILE_PATH: "crawlerConfig.json"
+
+name: Algolia Indexer
+
 on:
   push:
     branches:
       - main
+
 jobs:
-  algolia:
+  algolia_indexer:
     runs-on: ubuntu-latest
+    env:
+      APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
+      API_KEY: ${{ secrets.API_KEY }}
+      INDEX_NAME: "trimof"
+      CONFIG: '{
+        "index_name": "trimof",
+        "start_urls": ["https://trimof.com"],
+        "rateLimit": 8,
+        "maxDepth": 10,
+        "selectors": {
+          "lvl0": {
+            "selector": "",
+            "defaultValue": "docs"
+          },
+          "lvl1": ".content h1",
+          "lvl2": ".content h2",
+          "lvl3": ".content h3",
+          "lvl4": ".content h4",
+          "lvl5": ".content h5",
+          "content": ".content p, .content li"
+        },
+        "selectors_exclude": [
+          "aside",
+          ".page-footer",
+          ".next-and-prev-link",
+          ".table-of-contents"
+        ],
+        "js_render": true}'
+    name: Index Algolia
     steps:
-      # - uses: actions/checkout@v2
-      # - name: Get the content of algolia.json as config
-      #   id: algolia_config
-      #   run: echo "config=$(cat crawlerConfig.json | jq -r tostring)" >> $GITHUB_OUTPUT
-      # - name: Push indices to Algolia
-      #   id: algolia
-      #   uses: adapttive/algolia-docsearch-action@1.1.1
-      #   env:
-      #     APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
-      #     API_KEY: ${{ secrets.API_KEY }}
-      #     CONFIG: ${{ steps.algolia_config.outputs.config }}
-      - name: Upload Algolia Indexes
-        uses: iChochy/Algolia-Upload-Records@main
-        env:
-          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
-          ADMIN_API_KEY: ${{ secrets.API_KEY }}
-          INDEX_NAME: "trimof"
-          FILE_PATH: "crawlerConfig.json"
+    - name: Algolia Docsearch Action
+      id: algolia
+      uses:  adapttive/algolia-docsearch-action@1.1.1
 
 # name: Algolia Indexer
 
