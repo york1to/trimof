@@ -20,7 +20,7 @@ jobs:
       #     CONFIG: ${{ steps.algolia_config.outputs.config }}
       - name: Get the content of algolia.json as config
         id: algolia_config
-        run: echo "config=$(cat crawlerConfig.json | jq -r tostring)" >> $GITHUB_OUTPUT
+        run: echo "config=$(cat ../../crawlerConfig.json | jq -r tostring)" >> $GITHUB_OUTPUT
       - name: Upload Algolia Indexes
         uses: iChochy/Algolia-Upload-Records@main
         env:
@@ -28,7 +28,6 @@ jobs:
           ADMIN_API_KEY: ${{ secrets.API_KEY }}
           INDEX_NAME: "trimof"
           FILE_PATH: ${{ steps.algolia_config.outputs.config }}
-        
 
 # name: Algolia Indexer
 
