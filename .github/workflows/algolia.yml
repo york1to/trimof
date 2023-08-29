@@ -24,7 +24,7 @@ jobs:
           APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
           ADMIN_API_KEY: ${{ secrets.API_KEY }}
           INDEX_NAME: "trimof"
-          FILE_PATH: "package.json"
+          FILE_PATH: "crawlerConfig.json"
 
 # name: Algolia Indexer
 
