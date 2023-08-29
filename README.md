@@ -9,7 +9,7 @@
 ```shell
 sudo pacman -S nodejs pnpm 
 git clone https://github.com/yorkitokang/trimof
-cd ./arch-guide
+cd ./trimof
 pnpm i
 pnpm docs:dev
 ```
@@ -19,7 +19,7 @@ pnpm docs:dev
 ```shell
 brew install pnpm
 git clone https://github.com/yorkitokang/trimof
-cd ./arch-guide
+cd ./trimof
 pnpm i
 pnpm docs:dev
 ```
@@ -30,7 +30,7 @@ pnpm docs:dev
 scoop install nodejs
 scoop install pnpm
 git clone https://github.com/yorkitokang/trimof
-cd ./arch-guide
+cd ./trimof
 pnpm i
 pnpm docs:dev
 ```

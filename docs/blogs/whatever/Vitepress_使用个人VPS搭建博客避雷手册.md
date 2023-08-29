@@ -6,7 +6,7 @@
 
 静态博客发展到现在已经非常方便了，即使是我这种没有接触过任何前端的非计算机系学生，都能非常快捷地部署一个个人博客。即便如此，要满足我的需求，仍然存在需要调试的地方。经过两天的研究，有些调出来了有些没调出来，心里嘀咕着咱也不学这个差不多得了，所以写一篇手册防止自己忘掉。
 
-## 1 VPS 租赁，Cloudfare 域名解析
+## 1 VPS 租赁，Cloudfare 域名解析 Github Pages
 
 为了给我的专线打掩护，租的是搬瓦工的 50 刀一年的服务器，之后润了也方便访问。
 
@@ -29,6 +29,12 @@
 使用 cloudfare 的免费证书[link](https://www.cloudflare.com/zh-cn/learning/ssl/what-is-an-ssl-certificate/)
 
 [教程](https://seviche.cc/2022-06-12-cloudflare/)
+
+### 1.4 Github Pages
+
+由于服务器在境外，在配置的过程中被污染了ssh都上不去，所以最后还是换成了github pages。github pages的自动化程度非常高，可以说编辑完commit之后直接就能在我的网站上看到了。
+
+整个博客项目我创建了三个库，一个源代码，一个github.io，一个图床，感谢微软爸爸。
 
 ## 2 Vitepress 安装与配置
 

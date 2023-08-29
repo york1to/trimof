@@ -8,11 +8,15 @@
 
 ## 1
 
-![Screenshot 2023-06-12 at 00.05.19](./images/Screenshot 2023-06-12 at 00.05.19.png)
+![screenshot 2023-08-29 at 3.31.36 AM](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_77baeeaf45b7162efffdb7c784f829ae.png)
 
-![Screenshot 2023-06-12 at 00.08.13](./images/Screenshot 2023-06-12 at 00.08.13.png)
 
-![Screenshot 2023-06-12 at 00.09.16](./images/Screenshot 2023-06-12 at 00.09.16.png)
+
+
+
+![Screenshot 2023-06-12 at 00.08.13](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_c7a0ada29a0ba2797dd7424deb3e2307.png)
+
+![Screenshot 2023-06-12 at 00.09.16](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_1469447266c3b25bf0ebae7a847c4205.png)
 
 Controller sensor actuator ref
 
@@ -28,17 +32,15 @@ Controller sensor actuator ref
 
 注意，K 始终为自然数
 
-![Screenshot 2023-06-04 at 19.04.35](./images/Screenshot 2023-06-04 at 19.04.35.png)
+![Screenshot 2023-06-04 at 19.04.35](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_6376295d6fa60c1ccc03730a0d07962f.png)
 
 Root locus 方法是画出在 K 变化时的根轨迹。根指的就是闭环极点。
 
-![Screenshot 2023-06-04 at 19.07.55](./images/Screenshot 2023-06-04 at 19.07.55.png)
+![Screenshot 2023-06-04 at 19.07.55](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_d6af98a8624e36329c724b6bf5376c43.png)
 
-画出来是一条直线![screenshot 2023-08-28 at 4.55.44 PM](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/screenshot 2023-08-28 at 4.55.44 PM.png)\![screenshot 2023-08-28 at 4.56.45 PM](../../../../../../../Application Support/typora-user-images/screenshot 2023-08-28 at 4.56.45 PM.png)![screenshot 2023-08-28 at 4.56.45 PM](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/screenshot 2023-08-28 at 4.56.45 PM.png)
+画出来是一条直线
 
-![screenshot 2023-08-28 at 4.50.59 PM](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/screenshot 2023-08-28 at 4.50.59 PM.png)
-
-![image-20230604191153727](./images/image-20230604191153727.png)
+![image-20230604191153727](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_a4b96570524a8e654ae9bef9b2f00a97.png)
 
 ### 7.2 Root locus Procedure
 
@@ -51,8 +53,8 @@ Root locus 方法是画出在 K 变化时的根轨迹。根指的就是闭环极
 以下是第一个步骤
 
 1. $1 + KG(s) = 0$
-   - $G(s)$ 分解![Screenshot 2023-06-04 at 19.23.28](./images/Screenshot 2023-06-04 at 19.23.28.png)
-   - 在图中画出零点和极点![Screenshot 2023-06-04 at 19.24.36](./images/Screenshot 2023-06-04 at 19.24.36.png)
+   - $G(s)$ 分解![Screenshot 2023-06-04 at 19.23.28](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_165cee1ba5d27682ee11567f4374aae5.png)
+   - 在图中画出零点和极点![Screenshot 2023-06-04 at 19.24.36](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_2e9ecd47f7225b68cafaf542fcab67ae.png)
      - 零点画 o 极点画 x
    - 画出 separate loci
      - 从 n 个极点画到到 m 个零点，其他的点直接飞走，飞到无穷
@@ -66,13 +68,13 @@ $ G(s) $ 是开环传递函数，所以有零点和极点。根据回忆，零�
 
 在 K 趋向于 0 的时候，只有极点会起作用；在 K 趋向于$\infty$ 的时候，只有零点会起作用。所以在画根轨迹法的时候，总是由极点画到零点。这点非常重要，似乎是一个趋势。
 
-![Screenshot 2023-06-04 at 19.29.08](./images/Screenshot 2023-06-04 at 19.29.08.png)
+![Screenshot 2023-06-04 at 19.29.08](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_e35c20bc2e929704f207a60043c37848.png)
 
 ---
 
 步骤 2：实数轴连点成线
 
-![Screenshot 2023-06-04 at 19.46.23](./images/Screenshot 2023-06-04 at 19.46.23.png)
+![Screenshot 2023-06-04 at 19.46.23](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_61e010f9a66ee4ebc8659a02afa33ceb.png)
 
 这个情况我觉得是假设有实数根的情况下一定符合，但是仍然是有很多问题的。
 
@@ -110,11 +112,11 @@ $$
 
 这个时候 PPT 展示了一张狗屎推导。
 
-![Screenshot 2023-06-04 at 20.03.39](./images/Screenshot 2023-06-04 at 20.03.39.png)
+![Screenshot 2023-06-04 at 20.03.39](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_c9af3838f87bdeabb3ae5ea2f8c81ce0.png)
 
 事实上是这俩公式的推导，可看可不看。
 
-![Screenshot 2023-06-04 at 20.05.01](./images/Screenshot 2023-06-04 at 20.05.01.png)
+![Screenshot 2023-06-04 at 20.05.01](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_d2226c65a8ad3595991b4d2dee55f5c0.png)
 
 ---
 
@@ -124,7 +126,7 @@ $$
 
 本质上也是在解特征方程，然后把$s$全部替换为$j\omega$
 
-![Screenshot 2023-06-04 at 20.16.29](./images/Screenshot 2023-06-04 at 20.16.29.png)
+![Screenshot 2023-06-04 at 20.16.29](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_2f507a2b6eda635dc2fdeaa09b453061.png)
 
 ---
 
@@ -134,19 +136,19 @@ $$
 
 还是解特征方程，把 K 写作 s 的方程
 
-![Screenshot 2023-06-04 at 20.18.26](./images/Screenshot 2023-06-04 at 20.18.26.png)
+![Screenshot 2023-06-04 at 20.18.26](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_7cf43000214f77e4962acff706674846.png)
 
 然后导数为 0，就可以得到分离点了。
 
-## ![Screenshot 2023-06-04 at 20.19.09](./images/Screenshot 2023-06-04 at 20.19.09.png)
+## ![Screenshot 2023-06-04 at 20.19.09](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_15cdc1f657dac1eececcf982dac24a2b.png)
 
 步骤 6: 画出出发和到达的角度
 
 不在轴上的点怎么处理？从极点出发，到达零点都有一个角度，这个角度让我们相对于实轴进行。
 
-![Screenshot 2023-06-04 at 20.25.42](./images/Screenshot 2023-06-04 at 20.25.42.png)
+![Screenshot 2023-06-04 at 20.25.42](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_e46fae0f4a9d30e72467b4205e627feb.png)
 
-![Screenshot 2023-06-04 at 20.25.57](./images/screenshot_1.png)
+![Screenshot 2023-06-04 at 20.25.57](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_132dea3336f29f256b8ff94299c905a8.png)
 
 这张 PPT 讲的其实很清楚了，假如你是零点，就正负 180 度加上极点减去其他零点，然后转化到正负 180 度以内好画出来。
 
@@ -162,7 +164,7 @@ $$
 
 相位法：
 
-![Screenshot 2023-06-04 at 20.37.23](./images/Screenshot 2023-06-04 at 20.37.23.png)
+![Screenshot 2023-06-04 at 20.37.23](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_397249c768771e2c543d766c25e7c0a7.png)
 
 在轨迹上的点显然都满足这个条件。
 
@@ -182,13 +184,13 @@ $$
 
 - arc root locus
 
-![Screenshot 2023-06-04 at 20.48.15](./images/Screenshot 2023-06-04 at 20.48.15.png)
+![Screenshot 2023-06-04 at 20.48.15](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_fb410782cba325e5705a004e082b1272.png)
 
 挺好玩的。
 
 - Parametric 根轨迹
 
-![Screenshot 2023-06-04 at 21.51.17](./images/Screenshot 2023-06-04 at 21.51.17.png)
+![Screenshot 2023-06-04 at 21.51.17](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_584c91dedde064bf557f371a27f4ce65.png)
 
 ### 7.3 Properties of Root Locus
 
@@ -210,13 +212,13 @@ $$
 
 ### PI controllers
 
-![Screenshot 2023-06-11 at 00.18.11](./images/Screenshot 2023-06-11 at 00.18.11.png)
+![Screenshot 2023-06-11 at 00.18.11](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_c37bc69a36f88a976fd106d9014be48e.png)
 
 突然想到，很多时候要做到计算效果带宽有关系
 
-![Screenshot 2023-06-11 at 00.40.34](./images/Screenshot 2023-06-11 at 00.40.34.png)
+![Screenshot 2023-06-11 at 00.40.34](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_4d121afae7262ca9f8cce1b0725e5934.png)
 
-![Screenshot 2023-06-11 at 01.00.56](./images/Screenshot 2023-06-11 at 01.00.56.png)
+![Screenshot 2023-06-11 at 01.00.56](https://raw.githubusercontent.com/yorkitokang/trimof_image/main/images/2023_08_29_c91f071f58e95b884e53f5e680019a7e.png)
 
 ### PD Control
 

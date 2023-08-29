@@ -6,18 +6,19 @@ const navConfig: DefaultTheme.NavItem[] = [
     items: [
       { text: "Index", link: "/notes/" },
       {
-        text: "Maths",
-        items: [
-          { text: "Calculus", link: "/notes/maths/calculus/calculus" },
-          { text: "Linear Algebra", link: "/notes/maths/linear_algebra/linear_algebra"}
-        ]
+        text: "Maths", link: "/notes/maths"
       },
       {
-        text: "Computer Science",
-        items: [
-          { text: "C++", link: "/notes/maths/calculus/calculus" },
-          { text: "Linux", link: "/notes/maths/linear_algebra/linear_algebra"}
-        ]
+        text: "CS", link: "/notes/CS"
+      },
+      {
+        text: "Control", link: "/notes/control_theory"
+      },
+      {
+        text: "EE", link: "/notes/EE"
+      },
+      {
+        text: "Robotics", link: "/notes/EE"
       }
     ]
   },
@@ -65,6 +66,12 @@ const navConfig: DefaultTheme.NavItem[] = [
           { text: "Linux", link: "/notes/maths/linear_algebra/linear_algebra"}
         ]
       }
+    ]
+  },
+  {
+    text: "About",
+    items: [
+      { text: "Index", link: "/about/index.md" }
     ]
   }
 ];
