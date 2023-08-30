@@ -29,9 +29,10 @@
 name: Algolia Indexer
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: [pages-build-site]
+    types:
+      - completed
 
 jobs:
   algolia_indexer:
@@ -61,7 +62,7 @@ jobs:
           "selector": "/html/@lang",
           "type": "xpath",
           "global": true
-        }
+        },
         "selectors_exclude": [
           "aside",
           ".page-footer",
