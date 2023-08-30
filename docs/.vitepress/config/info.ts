@@ -20,6 +20,6 @@ export const KEYWORDS = keywords.join(",");
 export const META_TITLE = `${TITLE}`;
 
 // Algolia Search
-export const API_KEY = "7c6ba64beafe2cb85b3da9dee6365ccc";
+export const API_KEY = "6e28f201f03a0aea8fcbf38290fd0149";
 export const APP_ID = "01LBMXU8V5";
 export const INDEX_NAME = "trimof";
