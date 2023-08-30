@@ -2,7 +2,6 @@ import type { DefaultTheme } from "vitepress";
 import algolia from "./algolia";
 import nav from "./nav";
 import sidebar from "./sidebar";
-import { getSidebar } from 'vitepress-plugin-auto-sidebar'
 import { LOGO as logo, REPO } from "./info";
 
 const themeConfig: DefaultTheme.Config = {
@@ -25,7 +24,7 @@ const themeConfig: DefaultTheme.Config = {
       },
       link: 'https://space.bilibili.com/12215181',
     }
-  ]
+  ],
 };
 
 export default themeConfig;
