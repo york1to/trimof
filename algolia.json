@@ -4,7 +4,6 @@
   "sitemap_urls": [],
   "lang": "en",
   "sitemap_alternate_links": false,
-  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -17,10 +16,5 @@
     "lvl5": ".content h5",
     "content": ".content p, .content li"
   },
-  "strip_chars": " .,;:#",
-  "custom_settings": {
-    "separatorsToIndex": "_",
-    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
-    "attributesToRetrieve": ["hierarchy", "content", "anchor", "url", "url_without_anchor", "type"]
-  }
+  "strip_chars": " .,;:#"
 }

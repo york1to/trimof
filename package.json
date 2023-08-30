@@ -6,6 +6,7 @@
     "markdown-it": "13.0.1",
     "markdown-it-katex": "2.0.3",
     "prettier": "2.8.4",
+    "sitemap": "^7.1.1",
     "vitepress": "1.0.0-alpha.47",
     "vitepress-plugin-auto-sidebar": "1.1.0",
     "vue": "^3.2.47"
