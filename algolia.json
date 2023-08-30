@@ -1,6 +1,5 @@
 {
   "index_name": "trimof",
-  "lang": "zh",
   "start_urls": ["https://trimof.com"],
   "sitemap_urls": ["https://trimof.com/sitemap.xml"],
   "sitemap_alternate_links": true,
