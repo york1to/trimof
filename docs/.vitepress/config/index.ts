@@ -22,7 +22,6 @@ export default defineConfig({
   },
   themeConfig,
   title,
-
   buildEnd: async ({ outDir }) => {
     const sitemap = new SitemapStream({
       hostname: 'https://trimof.com/'
