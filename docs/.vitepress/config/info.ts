@@ -11,7 +11,7 @@ const keywords = [
 // Base Info
 export const TITLE = "trimof";
 export const DESCRIPTION = "york1to's website";
-export const LANG = "zh-CN";
+export const LANG = "en-US";
 export const DOMAIN = "trimof.com";
 export const URL = `https://${DOMAIN}`;
 export const REPO = "https://github.com/yorkitokang/trimof";
