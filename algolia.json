@@ -2,7 +2,7 @@
   "index_name": "trimof",
   "start_urls": ["https://trimof.com"],
   "sitemap_urls": [],
-  "lang": "zh",
+  "lang": "en",
   "sitemap_alternate_links": false,
   "stop_urls": [],
   "selectors": {
