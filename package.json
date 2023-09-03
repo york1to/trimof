@@ -1,16 +1,6 @@
 {
   "author": "york1to <yorkitakang@gmail.com>",
   "description": "Personal Website",
-  "devDependencies": {
-    "fast-glob": "3.3.1",
-    "markdown-it": "13.0.1",
-    "markdown-it-katex": "2.0.3",
-    "prettier": "2.8.4",
-    "sitemap": "^7.1.1",
-    "vitepress": "1.0.0-alpha.47",
-    "vitepress-plugin-auto-sidebar": "1.1.0",
-    "vue": "^3.2.47"
-  },
   "keywords": [
     "trimof",
     "blogs",
@@ -21,29 +11,25 @@
     "ebook"
   ],
   "license": "CC-BY-SA-4.0",
-  "lint-staged": {
-    "*.{js,css,md}": "prettier --write"
-  },
-  "main": "index.js",
-  "name": "trimof",
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
-        "@algolia/client-search"
+        "@algolia/client-search",
+        "search-insights"
       ]
     }
   },
-  "repository": "https://github.com/yorkitokang/trimof",
-  "scripts": {
-    "docs:build": "vitepress build docs",
-    "docs:dev": "vitepress dev docs",
-    "docs:preview": "vitepress preview docs",
-    "update": "pnpm update -r --latest"
-  },
-  "version": "1.0.0",
-  "dependencies": {
-    "fast-glob": "^3.3.1",
-    "gray-matter": "^4.0.3",
+  "type": "module",
+  "devDependencies": {
+    "markdown-it": "^13.0.1",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-textual-uml": "^0.16.0",
+    "vitepress": "1.0.0-rc.10",
     "vitepress-plugin-auto-sidebar": "^1.1.0"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   }
 }

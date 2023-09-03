@@ -1,6 +1,10 @@
+---
+title: Vitepress 使用个人 VPS 搭建博客避雷手册
+---
+
 # Vitepress 使用个人 VPS 搭建博客避雷手册
 
-[toc]
+[[toc]]
 
 ## 引子
 

@@ -6,13 +6,13 @@ hero:
   text: is Yorkito
   tagline: Handmade Juicy
   image:
-    light: /images/mikucat.png
-    dark: /images/hero.gif
+    light: mikucat.png
+    dark: hero.gif
     alt: archlinux
   actions:
     - theme: brand
-      text: Navigate
-      link: 
+      text: TODO
+      link: /TODO
     - theme: alt
       text: My Github
       link: https://github.com/york1to
@@ -26,10 +26,6 @@ features:
     title: Blogs
     details: Classic
     link: /blogs/An introduction
-  - icon: 🏝️
-    title: Documentations
-    details: Index of helpful documentations
-    link: /documentations/CS
   - icon: 🦾
     title: Projects
     details: Projects I've Done

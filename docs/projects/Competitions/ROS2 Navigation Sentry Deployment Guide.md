@@ -80,8 +80,7 @@ Pointcloud to laserscan is for 2d AMCL. The input is pointcloud msg /`cloud_regi
 
 ## 2 Tuning and Configuration Guide
 
-~~~flow
-```flow
+```mermaid
 st=>start: Begin
 io_livox=>inputoutput: IMU+Lidar Msgs Input
 io_serial_in=>inputoutput: Serial Input
@@ -98,7 +97,6 @@ ui_position=>operation: Position In RMUC Map
 st(bottom)->io_livox->fast_lio->point_cloud_msg->costmap->io_serial_in->target_cond(yes)->global_path->controller->io_serial_out(left)->fast_lio(left)
 target_cond(no)->fast_lio(top)
 ```
-~~~
 
 ### 2.1 FAST_LIO
 
