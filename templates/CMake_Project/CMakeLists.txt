@@ -4,7 +4,6 @@ project(my_project)
 
 aux_source_directory(./src DIR_SRCS)
 
-add_executable(E1 ${DIR_SRCS})
+add_executable(my_exe ${DIR_SRCS})
 
 include_directories(include)
-
