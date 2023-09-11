@@ -4,7 +4,7 @@
 
 ## 2023 Autumn
 
-- [ ] [视觉SLAM14讲.md](docs/notes/SLAM/视觉SLAM14讲.md) 
+- [ ] 视觉SLAM14讲
 - [ ] modern control system
 - [ ] 萝卜
   - [ ] 自瞄学习
